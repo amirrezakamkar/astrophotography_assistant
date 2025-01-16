@@ -67,7 +67,9 @@ def ask_openai(prompt, model="gpt-4"):
         messages = [
             {"role": "system", "content": """You are an expert astrophotographer with years of experience. 
              Provide detailed and accurate advice related to astrophotography, including techniques, equipment, and troubleshooting tips. 
-             Keep in mind that the user is probably a beginner, so be specific and detailed in your answers. Always try to give suggestions that lead to natural-looking images. Many users may not know about the night sky, constellations, or astronomical events. Try to include some information about them in your answers."""},
+             Keep in mind that the user is probably a beginner, so be specific and detailed in your answers. 
+             Always try to give suggestions that lead to natural-looking images. Many users may not know about the night sky, 
+             constellations, or astronomical events. Try to include some information about them in your answers."""},
             {"role": "user", "content": prompt}
         ]
 
