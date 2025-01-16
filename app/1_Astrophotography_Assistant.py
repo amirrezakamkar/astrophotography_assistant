@@ -5,12 +5,7 @@ import os
 import time
 import base64
 
-# Load CSS file to make the sidebar semi-transparent
-def load_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-load_css("style.css")
 
 # Load CSS file to make the sidebar transparent
 def load_css(file_name):
