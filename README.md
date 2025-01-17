@@ -18,7 +18,7 @@ In this project, the following APIs and libraries have been used:
 To run this project locally, follow these steps:
 1. Clone the repository.
 2. Install the required dependencies using ```pip install -r requirements.txt```.
-3. Set up the environment variables by creating a ```.env``` file in the root directory and adding your API keys.
+3. Set up the environment variables by creating a ```secrets.toml``` file in the ```app/.streamlit``` directory and adding your API keys.
 4. Run the Streamlit app using ```streamlit run app/1_Astrophotography_Assistant.py```.
 
 
