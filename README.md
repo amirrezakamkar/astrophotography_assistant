@@ -3,10 +3,11 @@
 ## Overview
 This project features a Streamlit app powered by the OpenAI API, designed to assist users in the field of astrophotography. The app includes four pages:
 
-- A chatbot to answer questions and provide assistance.
-- Image analysis that offers AI-driven feedback on the processing of user-uploaded images.
-- A celestial events page displaying solar and lunar eclipses visible from a specified location during a defined time period.
-- An embedded light pollution map from lightpollutionmap.info
+1. A chatbot to answer questions and provide assistance.
+2. Image analysis that offers AI-driven feedback on the processing of user-uploaded images.
+3. celestial events page displaying solar and lunar eclipses visible from a specified location during a defined time period.
+4. An embedded light pollution map from lightpollutionmap.info
+![A screenshot of the app](https://github.com/amirrezakamkar/astrophotography_assistant/blob/main/Demo.jpg)
 ## Resources
 In this project, the following APIs and libraries have been used:
 - OpenAI API
