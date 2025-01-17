@@ -67,7 +67,7 @@ def add_background_image(image_path):
 add_background_image("background.jpg")
 
 
-def ask_openai(prompt, model="gpt-4"):
+def ask_openai(prompt, model="gpt-4o-mini"):
     """
     Send a prompt to OpenAI API with astrophotography context and return the response.
     """

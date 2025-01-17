@@ -29,10 +29,10 @@ def fetch_celestial_events(api_key, latitude, longitude, elevation, from_date, t
     data = {
         "latitude": latitude,
         "longitude": longitude,
-        "elevation": elevation,  # Added elevation parameter
+        "elevation": elevation,  
         "from_date": from_date,
         "to_date": to_date,
-        "time": time,  # Added time parameter
+        "time": time,
         "output": "rows"
     }
 
