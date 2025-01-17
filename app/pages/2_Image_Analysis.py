@@ -15,7 +15,7 @@ client = Client(api_key=openai_api_key)
 
 # Page content
 st.title("Your Astrophotography Image Processing Assistant")
-st.write("Upload your astrophotography images for expert feedback.")
+st.write("Upload your astrophotography images for AI-generated feedback.")
 
 # File uploader for image upload
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
@@ -93,7 +93,7 @@ def analyze_image(image_path):
 # Process the uploaded image
 if uploaded_file is not None:
     # Display the uploaded image
-    st.image(uploaded_file, caption="Uploaded Image", use_column_width=True)
+    st.image(uploaded_file, caption="Uploaded Image", use_container_width=True)
 
     # Add an Analyze button
     if st.button("Analyze Image"):
