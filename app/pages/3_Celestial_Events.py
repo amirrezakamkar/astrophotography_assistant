@@ -99,10 +99,11 @@ def fetch_celestial_events(api_key, latitude, longitude, elevation, from_date, t
 def main():
     # Streamlit app title
     st.title("Celestial Events Viewer")
+    st.caption("Find out about the Solar and Lunar Eclipses visible in your location!")
 
     # User Inputs
-    latitude = st.number_input("Latitude", value=48.5734)
-    longitude = st.number_input("Longitude", value=7.7521)
+    latitude = st.number_input("Latitude", value=48.5)
+    longitude = st.number_input("Longitude", value=13.5)
     elevation = st.number_input("Elevation (in meters)", value=0)  # Added elevation input
     from_date = st.date_input("From Date", min_value=datetime.today())
     to_date = st.date_input("To Date", min_value=datetime.today())
