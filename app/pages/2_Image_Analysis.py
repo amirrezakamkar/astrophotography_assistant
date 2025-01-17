@@ -119,7 +119,8 @@ if uploaded_file is not None:
                 The image should look natural-looking and not over-processed. So not too bright or too dark, and not too much contrast
                 and saturated. Don't mention the resolution, brightness, contrast, saturation, sharpness, noise level, dynamic range, color balance, and chromatic aberration
                 numbers and instead, alanyze the image based on those numbers and give a general feedback based on the numbers. The image can be a wide image
-                of foreground terrestial objects and night sky or deep-sky image.
+                of foreground terrestial objects and night sky or deep-sky image. Remember that night sky images are usually darker than normal daytime images, consider that when giving feedback.
+                Also because night sky photographers usually use high ISO, the noise level is usually higher than normal daytime images, consider that when giving feedback.
                 """
 
                 # Call OpenAI for detailed feedback
